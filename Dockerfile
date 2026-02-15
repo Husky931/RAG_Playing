@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir \
 
 # 6. Copy your script and data into the container
 COPY script.py .
-COPY Tesla.rtf .
+COPY Tesla2.txt .
 
 # 7. Run your script
 CMD ["python", "script.py"]
